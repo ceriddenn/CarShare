@@ -7,11 +7,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@turbo/gen": "^2.0.4",
-    "eslint": "^9.5.0",
     "eslint-config-custom": "*",
-    "prettier": "^3.3.2",
-    "turbo": "^2.0.4"
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "turbo": "latest"
   },
   "name": "mono",
   "license": "MIT",
