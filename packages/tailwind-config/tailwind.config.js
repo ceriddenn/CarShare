@@ -25,6 +25,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        cyellow: "#fffd00",
+        cdarkgray: "#1a1a1a",
+        clightgray: "#282828",
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -80,6 +83,7 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
     },
+    
   },
   plugins: [require('tailwindcss-animate')],
 };

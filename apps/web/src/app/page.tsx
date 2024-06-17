@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "ui";
 
 export default function HomePage() {
   return (
@@ -14,6 +14,8 @@ export default function HomePage() {
               See the repository
             </a>
           </p>
+          <Button className="bg-cyellow">Click me</Button>
+
           <footer className='absolute bottom-2 text-sm text-gray-700'>
             © {new Date().getFullYear()} By{' '}
             <a href='https://twitter.com/asyncninja'>

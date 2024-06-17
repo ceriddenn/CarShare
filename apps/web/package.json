@@ -57,13 +57,16 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.4.5",
     "use-async-effect": "^2.2.7",
-    "utf-8-validate": "^6.0.4"
+    "utf-8-validate": "^6.0.4",
+    "ui": "*"
   },
   "devDependencies": {
     "knip": "^2.15.1",
     "ts-node": "^10.9.1",
     "eslint-config-custom": "*",
     "tailwind-config": "*",
-    "tsconfig": "*"
+    "tsconfig": "*",
+    "ui": "*"
+
   }
 }

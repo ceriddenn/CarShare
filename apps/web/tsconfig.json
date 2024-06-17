@@ -1,8 +1,23 @@
 {
   "extends": "tsconfig/nextjs.json",
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+  ],
   "compilerOptions": {
-    "outDir": "dist"
+    "baseUrl": "./",
+    "paths": {
+      "@ui/*": ["../../packages/ui/index.tsx"],
+
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
   },
-  "include": ["src"],
   "exclude": ["node_modules"]
 }
