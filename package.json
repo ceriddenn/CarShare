@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@turbo/gen": "^2.0.4",
+    "eslint": "^9.5.0",
+    "eslint-config-custom": "*",
+    "prettier": "^3.3.2",
+    "turbo": "^2.0.4"
+  },
+  "name": "mono",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "yarn@1.22.22",
+  "dependencies": {
+    "espree": "^10.0.1"
+  }
+}
